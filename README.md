@@ -5,7 +5,7 @@ A fully customizable android library that adds a snowfall to an activity. It als
 
 ## Releases:
 
-#### Current release: 1.0.0.
+#### Current release: 1.0.1.
 
 You can see all the library releases [here](https://github.com/marcoscgdev/XmasSnow/releases).
 
@@ -35,7 +35,7 @@ allprojects {
 Now add the dependency to your app build.gradle file:
 
 ```
-compile 'com.github.marcoscgdev:XmasSnow:1.0.0'
+implementation 'com.github.marcoscgdev:XmasSnow:1.0.1'
 ```
 
 ### Show into an Activity
