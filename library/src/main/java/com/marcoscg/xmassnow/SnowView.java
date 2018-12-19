@@ -76,8 +76,8 @@ public class SnowView extends View {
                 animation.setInterpolator(interpolator);
 
                 coords[i] = new int[] { sRandomGen.nextInt(width - 30), -60 };
-                int size = 18 * height / 1000 + sRandomGen.nextInt(13);
-                Drawable snow_flake = mContext.getResources().getDrawable(R.drawable.snow);
+                int size = 10 * height / 1000 + sRandomGen.nextInt(13);
+                Drawable snow_flake = mContext.getResources().getDrawable(R.drawable.snow_flake);
 
                 snow_flake.setBounds(0, 0, size, size);
                 drawables.add(new AnimateDrawable(snow_flake, animation));
